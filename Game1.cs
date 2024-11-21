@@ -14,7 +14,7 @@ namespace Monogame___Mouse_Clicks
         MouseState mouseState;
         MouseState prevMouseState;
         Texture2D newCursorTexture;
-        Rectangle mnewCursorRect;
+        Rectangle newCursorRect;
 
 
 
@@ -32,7 +32,7 @@ namespace Monogame___Mouse_Clicks
             _graphics.PreferredBackBufferWidth = 800;
             _graphics.PreferredBackBufferHeight = 500;
             quitRect = new Rectangle(300, 200, 200, 80);
-            marioMouseRect = new Rectangle();
+             newCursorRect = new Rectangle();
 
             base.Initialize();
         }
